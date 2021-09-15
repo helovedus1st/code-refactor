@@ -4,10 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* This is the css for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,6 +20,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* This is the css for navigation */
 
 nav {
     padding-top: 15px;
@@ -46,10 +45,30 @@ a {
     text-decoration: none;
 }
 
+/* This is the css for the body */
+body {
+    background-color: #d9dcd6;
+}
+
 p {
     font-size: 16px;
 }
 
+/* This is the css for the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* Class selectors below */
+
+/* Hero class is for the background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +94,7 @@ p {
     margin-left: 20px;
 }
 
+/* These class selectors control the benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,6 +128,7 @@ p {
     max-width: 150px;
 }
 
+/* These class selectors define the content in the aside */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -130,15 +151,4 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
